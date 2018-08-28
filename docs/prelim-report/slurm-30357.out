@@ -1,0 +1,63 @@
+======== Warning: Metric "stall_imc" cannot be found on device 0.
+======== Warning: Metric "stall_imc" cannot be found on device 1.
+======== Warning: Metric "stall_imc" cannot be found on device 2.
+======== Warning: Metric "stall_imc" cannot be found on device 3.
+======== Warning: Metric "stall_not_selected" cannot be found on device 0.
+======== Warning: Metric "stall_not_selected" cannot be found on device 1.
+======== Warning: Metric "stall_not_selected" cannot be found on device 2.
+======== Warning: Metric "stall_not_selected" cannot be found on device 3.
+======== Warning: Metric "warp_nonpred_execution_efficiency" cannot be found on device 0.
+======== Warning: Metric "warp_nonpred_execution_efficiency" cannot be found on device 1.
+======== Warning: Metric "warp_nonpred_execution_efficiency" cannot be found on device 2.
+======== Warning: Metric "warp_nonpred_execution_efficiency" cannot be found on device 3.
+======== Warning: Metric "shared_utilization" cannot be found on device 0.
+======== Warning: Metric "shared_utilization" cannot be found on device 1.
+======== Warning: Metric "shared_utilization" cannot be found on device 2.
+======== Warning: Metric "shared_utilization" cannot be found on device 3.
+======== Warning: Metric "special_fu_utilization" cannot be found on device 0.
+======== Warning: Metric "special_fu_utilization" cannot be found on device 1.
+======== Warning: Metric "special_fu_utilization" cannot be found on device 2.
+======== Warning: Metric "special_fu_utilization" cannot be found on device 3.
+======== Warning: Metric "single_precision_fu_utilization" cannot be found on device 0.
+======== Warning: Metric "single_precision_fu_utilization" cannot be found on device 1.
+======== Warning: Metric "single_precision_fu_utilization" cannot be found on device 2.
+======== Warning: Metric "single_precision_fu_utilization" cannot be found on device 3.
+======== Warning: Metric "double_precision_fu_utilization" cannot be found on device 0.
+======== Warning: Metric "double_precision_fu_utilization" cannot be found on device 1.
+======== Warning: Metric "double_precision_fu_utilization" cannot be found on device 2.
+======== Warning: Metric "double_precision_fu_utilization" cannot be found on device 3.
+======== Warning: Metric "l2_tex_write_transactions" cannot be found on device 0.
+======== Warning: Metric "l2_tex_write_transactions" cannot be found on device 1.
+======== Warning: Metric "l2_tex_write_transactions" cannot be found on device 2.
+======== Warning: Metric "l2_tex_write_transactions" cannot be found on device 3.
+======== Warning: Metric "nc_l2_read_transactions" cannot be found on device 0.
+======== Warning: Metric "nc_l2_read_transactions" cannot be found on device 1.
+======== Warning: Metric "nc_l2_read_transactions" cannot be found on device 2.
+======== Warning: Metric "nc_l2_read_transactions" cannot be found on device 3.
+======== Warning: Metric "l2_tex_write_throughput" cannot be found on device 0.
+======== Warning: Metric "l2_tex_write_throughput" cannot be found on device 1.
+======== Warning: Metric "l2_tex_write_throughput" cannot be found on device 2.
+======== Warning: Metric "l2_tex_write_throughput" cannot be found on device 3.
+======== Warning: Metric "nc_l2_read_throughput" cannot be found on device 0.
+======== Warning: Metric "nc_l2_read_throughput" cannot be found on device 1.
+======== Warning: Metric "nc_l2_read_throughput" cannot be found on device 2.
+======== Warning: Metric "nc_l2_read_throughput" cannot be found on device 3.
+==29067== NVPROF is profiling process 29067, command: ./main -g 4
+Number of MPI processes = 1
+Number of CUDA devices = 4
+
+Entering GEMM Benchmarking mode! Stand by.
+
+Starting GEMM 1: M = 800; N = 1000; K = 784
+==29067== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+GEMM matched with reference successfully! Rel diff = 1.57176e-14
+Time for reference GEMM implementation: 18.9367
+Time for my GEMM implementation: 111.675
+Completed GEMM 1
+
+Starting GEMM 2: M = 800; N = 10; K = 1000
+GEMM matched with reference successfully! Rel diff = 2.96266e-14
+Time for reference GEMM implementation: 8.73872
+Time for my GEMM implementation: 6.75075
+Completed GEMM 2
+==29067== Generated result file: /home/brad0309/Project/profile.29067.nvprof

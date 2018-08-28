@@ -1,0 +1,137 @@
+Number of MPI processes = 4
+Number of CUDA devices = 4
+num_neuron=100, reg=0.0001, learning_rate=0.001, num_epochs=40, batch_size=800
+Loading training data...
+Training data stats...
+Size of x_train, N =  60000
+Size of label_train = 60000
+Start Sequential Training
+Time for Sequential Training: 117.216 seconds
+Precision on validation set for sequential training = 0.894333
+
+Start Parallel Training
+Time for Parallel Training: 45.7335 seconds
+Precision on validation set for parallel training = 0.894333
+
+Grading mode on. Checking for correctness
+
+
+max norm of diff b/w seq and par: W[0]: 8.34888e-16, b[0]: 1.68734e-15
+l2  norm of diff b/w seq and par: W[0]: 8.10156e-16, b[0]: 1.54065e-15
+
+max norm of diff b/w seq and par: W[1]: 8.34888e-16, b[1]: 1.68734e-15
+l2  norm of diff b/w seq and par: W[1]: 8.10156e-16, b[1]: 1.54065e-15
+Number of MPI processes = 4
+Number of CUDA devices = 4
+num_neuron=100, reg=0.0001, learning_rate=0.01, num_epochs=10, batch_size=800
+Loading training data...
+Training data stats...
+Size of x_train, N =  60000
+Size of label_train = 60000
+Start Sequential Training
+Time for Sequential Training: 29.4631 seconds
+Precision on validation set for sequential training = 0.924167
+
+Start Parallel Training
+Time for Parallel Training: 12.1609 seconds
+Precision on validation set for parallel training = 0.924167
+
+Grading mode on. Checking for correctness
+
+
+max norm of diff b/w seq and par: W[0]: 6.03071e-08, b[0]: 9.14773e-08
+l2  norm of diff b/w seq and par: W[0]: 4.36516e-08, b[0]: 2.88039e-08
+
+max norm of diff b/w seq and par: W[1]: 6.03071e-08, b[1]: 9.14773e-08
+l2  norm of diff b/w seq and par: W[1]: 4.36516e-08, b[1]: 2.88039e-08
+Number of MPI processes = 4
+Number of CUDA devices = 4
+num_neuron=100, reg=0.0001, learning_rate=0.025, num_epochs=1, batch_size=800
+Loading training data...
+Training data stats...
+Size of x_train, N =  60000
+Size of label_train = 60000
+Start Sequential Training
+Loss at iteration 0 of epoch 0/1 = 2.31287
+Loss at iteration 1 of epoch 0/1 = 2.29801
+Loss at iteration 2 of epoch 0/1 = 2.28377
+Loss at iteration 3 of epoch 0/1 = 2.26285
+Loss at iteration 4 of epoch 0/1 = 2.24996
+Loss at iteration 5 of epoch 0/1 = 2.23732
+Loss at iteration 6 of epoch 0/1 = 2.21529
+Loss at iteration 7 of epoch 0/1 = 2.20254
+Loss at iteration 8 of epoch 0/1 = 2.18886
+Loss at iteration 9 of epoch 0/1 = 2.18379
+Loss at iteration 10 of epoch 0/1 = 2.1622
+Loss at iteration 11 of epoch 0/1 = 2.14225
+Loss at iteration 12 of epoch 0/1 = 2.11962
+Loss at iteration 13 of epoch 0/1 = 2.11017
+Loss at iteration 14 of epoch 0/1 = 2.09901
+Loss at iteration 15 of epoch 0/1 = 2.08981
+Loss at iteration 16 of epoch 0/1 = 2.07929
+Loss at iteration 17 of epoch 0/1 = 2.07228
+Loss at iteration 18 of epoch 0/1 = 2.0566
+Loss at iteration 19 of epoch 0/1 = 2.02486
+Loss at iteration 20 of epoch 0/1 = 2.00348
+Loss at iteration 21 of epoch 0/1 = 2.00874
+Loss at iteration 22 of epoch 0/1 = 1.9786
+Loss at iteration 23 of epoch 0/1 = 1.95694
+Loss at iteration 24 of epoch 0/1 = 1.93332
+Loss at iteration 25 of epoch 0/1 = 1.92866
+Loss at iteration 26 of epoch 0/1 = 1.90449
+Loss at iteration 27 of epoch 0/1 = 1.88565
+Loss at iteration 28 of epoch 0/1 = 1.88499
+Loss at iteration 29 of epoch 0/1 = 1.8643
+Loss at iteration 30 of epoch 0/1 = 1.85119
+Loss at iteration 31 of epoch 0/1 = 1.80484
+Loss at iteration 32 of epoch 0/1 = 1.79455
+Loss at iteration 33 of epoch 0/1 = 1.80235
+Loss at iteration 34 of epoch 0/1 = 1.77634
+Loss at iteration 35 of epoch 0/1 = 1.74506
+Loss at iteration 36 of epoch 0/1 = 1.73507
+Loss at iteration 37 of epoch 0/1 = 1.7554
+Loss at iteration 38 of epoch 0/1 = 1.72471
+Loss at iteration 39 of epoch 0/1 = 1.72265
+Loss at iteration 40 of epoch 0/1 = 1.72514
+Loss at iteration 41 of epoch 0/1 = 1.65438
+Loss at iteration 42 of epoch 0/1 = 1.61837
+Loss at iteration 43 of epoch 0/1 = 1.65605
+Loss at iteration 44 of epoch 0/1 = 1.61038
+Loss at iteration 45 of epoch 0/1 = 1.59497
+Loss at iteration 46 of epoch 0/1 = 1.61504
+Loss at iteration 47 of epoch 0/1 = 1.583
+Loss at iteration 48 of epoch 0/1 = 1.52233
+Loss at iteration 49 of epoch 0/1 = 1.57788
+Loss at iteration 50 of epoch 0/1 = 1.51239
+Loss at iteration 51 of epoch 0/1 = 1.53203
+Loss at iteration 52 of epoch 0/1 = 1.49343
+Loss at iteration 53 of epoch 0/1 = 1.49928
+Loss at iteration 54 of epoch 0/1 = 1.46194
+Loss at iteration 55 of epoch 0/1 = 1.46226
+Loss at iteration 56 of epoch 0/1 = 1.46197
+Loss at iteration 57 of epoch 0/1 = 1.45531
+Loss at iteration 58 of epoch 0/1 = 1.39488
+Loss at iteration 59 of epoch 0/1 = 1.42089
+Loss at iteration 60 of epoch 0/1 = 1.36021
+Loss at iteration 61 of epoch 0/1 = 1.42482
+Loss at iteration 62 of epoch 0/1 = 1.39992
+Loss at iteration 63 of epoch 0/1 = 1.35844
+Loss at iteration 64 of epoch 0/1 = 1.33385
+Loss at iteration 65 of epoch 0/1 = 1.32401
+Loss at iteration 66 of epoch 0/1 = 1.33066
+Loss at iteration 67 of epoch 0/1 = 1.31068
+Time for Sequential Training: 19.1442 seconds
+Precision on validation set for sequential training = 0.845167
+
+Start Parallel Training
+Time for Parallel Training: 2.14016 seconds
+Precision on validation set for parallel training = 0.845167
+
+Grading mode on. Checking for correctness
+
+
+max norm of diff b/w seq and par: W[0]: 6.02579e-11, b[0]: 1.54848e-10
+l2  norm of diff b/w seq and par: W[0]: 5.74687e-11, b[0]: 4.21949e-11
+
+max norm of diff b/w seq and par: W[1]: 6.02579e-11, b[1]: 1.54848e-10
+l2  norm of diff b/w seq and par: W[1]: 5.74687e-11, b[1]: 4.21949e-11
